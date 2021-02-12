@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F1277E425D4E5FE003FF4A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1277E325D4E5FE003FF4A3 /* AppDelegate.swift */; };
+		5F1277E625D4E5FE003FF4A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1277E525D4E5FE003FF4A3 /* SceneDelegate.swift */; };
+		5F1277E825D4E5FE003FF4A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1277E725D4E5FE003FF4A3 /* ViewController.swift */; };
+		5F1277EB25D4E5FE003FF4A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F1277E925D4E5FE003FF4A3 /* Main.storyboard */; };
+		5F1277ED25D4E606003FF4A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F1277EC25D4E606003FF4A3 /* Assets.xcassets */; };
+		5F1277F025D4E606003FF4A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F1277EE25D4E606003FF4A3 /* LaunchScreen.storyboard */; };
+		5F1277FB25D4E606003FF4A3 /* NAGAYATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1277FA25D4E606003FF4A3 /* NAGAYATests.swift */; };
+		5F12780625D4E606003FF4A3 /* NAGAYAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F12780525D4E606003FF4A3 /* NAGAYAUITests.swift */; };
+		5F12781A25D4ED58003FF4A3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F12781925D4ED58003FF4A3 /* LoginViewController.swift */; };
+		5F12781F25D51F5A003FF4A3 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F12781E25D51F5A003FF4A3 /* UIColor-Extension.swift */; };
+		5F12782F25D52A98003FF4A3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F12782E25D52A98003FF4A3 /* GoogleService-Info.plist */; };
+		87490E2EB7B6D2242A9719B6 /* Pods_NAGAYATests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE60D8EFDE477313510870A /* Pods_NAGAYATests.framework */; };
+		D1B4A20388D88D157D276800 /* Pods_NAGAYA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D275AD1C650CA373B69CAAD /* Pods_NAGAYA.framework */; };
+		E9B2512260A15FFCA58FF41E /* Pods_NAGAYA_NAGAYAUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2ED0FF0AC5A397AE439205B /* Pods_NAGAYA_NAGAYAUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F1277F725D4E606003FF4A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F1277D825D4E5FE003FF4A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F1277DF25D4E5FE003FF4A3;
+			remoteInfo = NAGAYA;
+		};
+		5F12780225D4E606003FF4A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F1277D825D4E5FE003FF4A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F1277DF25D4E5FE003FF4A3;
+			remoteInfo = NAGAYA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D275AD1C650CA373B69CAAD /* Pods_NAGAYA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NAGAYA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		395479ED93952504CCAA6007 /* Pods-NAGAYATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NAGAYATests.release.xcconfig"; path = "Target Support Files/Pods-NAGAYATests/Pods-NAGAYATests.release.xcconfig"; sourceTree = "<group>"; };
+		3CAEB22C103B32C6DFEE3D5B /* Pods-NAGAYA-NAGAYAUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NAGAYA-NAGAYAUITests.debug.xcconfig"; path = "Target Support Files/Pods-NAGAYA-NAGAYAUITests/Pods-NAGAYA-NAGAYAUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B2777F92BC57A2FC48C7FA4 /* Pods-NAGAYA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NAGAYA.debug.xcconfig"; path = "Target Support Files/Pods-NAGAYA/Pods-NAGAYA.debug.xcconfig"; sourceTree = "<group>"; };
+		4FE60D8EFDE477313510870A /* Pods_NAGAYATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NAGAYATests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F1277E025D4E5FE003FF4A3 /* NAGAYA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NAGAYA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F1277E325D4E5FE003FF4A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F1277E525D4E5FE003FF4A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5F1277E725D4E5FE003FF4A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F1277EA25D4E5FE003FF4A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F1277EC25D4E606003FF4A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F1277EF25D4E606003FF4A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F1277F125D4E606003FF4A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F1277F625D4E606003FF4A3 /* NAGAYATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NAGAYATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F1277FA25D4E606003FF4A3 /* NAGAYATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAGAYATests.swift; sourceTree = "<group>"; };
+		5F1277FC25D4E606003FF4A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F12780125D4E606003FF4A3 /* NAGAYAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NAGAYAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F12780525D4E606003FF4A3 /* NAGAYAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NAGAYAUITests.swift; sourceTree = "<group>"; };
+		5F12780725D4E606003FF4A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F12781925D4ED58003FF4A3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5F12781E25D51F5A003FF4A3 /* UIColor-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
+		5F12782E25D52A98003FF4A3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5F703D697AA412E260371301 /* Pods-NAGAYATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NAGAYATests.debug.xcconfig"; path = "Target Support Files/Pods-NAGAYATests/Pods-NAGAYATests.debug.xcconfig"; sourceTree = "<group>"; };
+		A2ED0FF0AC5A397AE439205B /* Pods_NAGAYA_NAGAYAUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NAGAYA_NAGAYAUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C05E26E190FE5A0AD088B6EE /* Pods-NAGAYA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NAGAYA.release.xcconfig"; path = "Target Support Files/Pods-NAGAYA/Pods-NAGAYA.release.xcconfig"; sourceTree = "<group>"; };
+		E2858C130A524D51D68D192C /* Pods-NAGAYA-NAGAYAUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NAGAYA-NAGAYAUITests.release.xcconfig"; path = "Target Support Files/Pods-NAGAYA-NAGAYAUITests/Pods-NAGAYA-NAGAYAUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F1277DD25D4E5FE003FF4A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1B4A20388D88D157D276800 /* Pods_NAGAYA.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F1277F325D4E606003FF4A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87490E2EB7B6D2242A9719B6 /* Pods_NAGAYATests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F1277FE25D4E606003FF4A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B2512260A15FFCA58FF41E /* Pods_NAGAYA_NAGAYAUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		273A82A46A7396113CCA760D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D275AD1C650CA373B69CAAD /* Pods_NAGAYA.framework */,
+				A2ED0FF0AC5A397AE439205B /* Pods_NAGAYA_NAGAYAUITests.framework */,
+				4FE60D8EFDE477313510870A /* Pods_NAGAYATests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4ACA7C18D4B2DB2E4D551543 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B2777F92BC57A2FC48C7FA4 /* Pods-NAGAYA.debug.xcconfig */,
+				C05E26E190FE5A0AD088B6EE /* Pods-NAGAYA.release.xcconfig */,
+				3CAEB22C103B32C6DFEE3D5B /* Pods-NAGAYA-NAGAYAUITests.debug.xcconfig */,
+				E2858C130A524D51D68D192C /* Pods-NAGAYA-NAGAYAUITests.release.xcconfig */,
+				5F703D697AA412E260371301 /* Pods-NAGAYATests.debug.xcconfig */,
+				395479ED93952504CCAA6007 /* Pods-NAGAYATests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5F1277D725D4E5FE003FF4A3 = {
+			isa = PBXGroup;
+			children = (
+				5F1277E225D4E5FE003FF4A3 /* NAGAYA */,
+				5F1277F925D4E606003FF4A3 /* NAGAYATests */,
+				5F12780425D4E606003FF4A3 /* NAGAYAUITests */,
+				5F1277E125D4E5FE003FF4A3 /* Products */,
+				4ACA7C18D4B2DB2E4D551543 /* Pods */,
+				273A82A46A7396113CCA760D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5F1277E125D4E5FE003FF4A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F1277E025D4E5FE003FF4A3 /* NAGAYA.app */,
+				5F1277F625D4E606003FF4A3 /* NAGAYATests.xctest */,
+				5F12780125D4E606003FF4A3 /* NAGAYAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F1277E225D4E5FE003FF4A3 /* NAGAYA */ = {
+			isa = PBXGroup;
+			children = (
+				5F1277E325D4E5FE003FF4A3 /* AppDelegate.swift */,
+				5F1277E525D4E5FE003FF4A3 /* SceneDelegate.swift */,
+				5F1277E725D4E5FE003FF4A3 /* ViewController.swift */,
+				5F12781925D4ED58003FF4A3 /* LoginViewController.swift */,
+				5F12781E25D51F5A003FF4A3 /* UIColor-Extension.swift */,
+				5F1277E925D4E5FE003FF4A3 /* Main.storyboard */,
+				5F1277EC25D4E606003FF4A3 /* Assets.xcassets */,
+				5F1277EE25D4E606003FF4A3 /* LaunchScreen.storyboard */,
+				5F1277F125D4E606003FF4A3 /* Info.plist */,
+				5F12782E25D52A98003FF4A3 /* GoogleService-Info.plist */,
+			);
+			path = NAGAYA;
+			sourceTree = "<group>";
+		};
+		5F1277F925D4E606003FF4A3 /* NAGAYATests */ = {
+			isa = PBXGroup;
+			children = (
+				5F1277FA25D4E606003FF4A3 /* NAGAYATests.swift */,
+				5F1277FC25D4E606003FF4A3 /* Info.plist */,
+			);
+			path = NAGAYATests;
+			sourceTree = "<group>";
+		};
+		5F12780425D4E606003FF4A3 /* NAGAYAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F12780525D4E606003FF4A3 /* NAGAYAUITests.swift */,
+				5F12780725D4E606003FF4A3 /* Info.plist */,
+			);
+			path = NAGAYAUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F1277DF25D4E5FE003FF4A3 /* NAGAYA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F12780A25D4E606003FF4A3 /* Build configuration list for PBXNativeTarget "NAGAYA" */;
+			buildPhases = (
+				C1E20890C9C891EC00E9006C /* [CP] Check Pods Manifest.lock */,
+				5F1277DC25D4E5FE003FF4A3 /* Sources */,
+				5F1277DD25D4E5FE003FF4A3 /* Frameworks */,
+				5F1277DE25D4E5FE003FF4A3 /* Resources */,
+				B18F1F1BDD7F51DB65C8DFB5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NAGAYA;
+			productName = NAGAYA;
+			productReference = 5F1277E025D4E5FE003FF4A3 /* NAGAYA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F1277F525D4E606003FF4A3 /* NAGAYATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F12780D25D4E606003FF4A3 /* Build configuration list for PBXNativeTarget "NAGAYATests" */;
+			buildPhases = (
+				4D22385BFE0F3EE20C44B020 /* [CP] Check Pods Manifest.lock */,
+				5F1277F225D4E606003FF4A3 /* Sources */,
+				5F1277F325D4E606003FF4A3 /* Frameworks */,
+				5F1277F425D4E606003FF4A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F1277F825D4E606003FF4A3 /* PBXTargetDependency */,
+			);
+			name = NAGAYATests;
+			productName = NAGAYATests;
+			productReference = 5F1277F625D4E606003FF4A3 /* NAGAYATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F12780025D4E606003FF4A3 /* NAGAYAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F12781025D4E606003FF4A3 /* Build configuration list for PBXNativeTarget "NAGAYAUITests" */;
+			buildPhases = (
+				D3BBF7E6E8458EF43DBF60A9 /* [CP] Check Pods Manifest.lock */,
+				5F1277FD25D4E606003FF4A3 /* Sources */,
+				5F1277FE25D4E606003FF4A3 /* Frameworks */,
+				5F1277FF25D4E606003FF4A3 /* Resources */,
+				574E64B3D5DABBBF67A38B07 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F12780325D4E606003FF4A3 /* PBXTargetDependency */,
+			);
+			name = NAGAYAUITests;
+			productName = NAGAYAUITests;
+			productReference = 5F12780125D4E606003FF4A3 /* NAGAYAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F1277D825D4E5FE003FF4A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					5F1277DF25D4E5FE003FF4A3 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					5F1277F525D4E606003FF4A3 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 5F1277DF25D4E5FE003FF4A3;
+					};
+					5F12780025D4E606003FF4A3 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 5F1277DF25D4E5FE003FF4A3;
+					};
+				};
+			};
+			buildConfigurationList = 5F1277DB25D4E5FE003FF4A3 /* Build configuration list for PBXProject "NAGAYA" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F1277D725D4E5FE003FF4A3;
+			productRefGroup = 5F1277E125D4E5FE003FF4A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F1277DF25D4E5FE003FF4A3 /* NAGAYA */,
+				5F1277F525D4E606003FF4A3 /* NAGAYATests */,
+				5F12780025D4E606003FF4A3 /* NAGAYAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F1277DE25D4E5FE003FF4A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F1277F025D4E606003FF4A3 /* LaunchScreen.storyboard in Resources */,
+				5F12782F25D52A98003FF4A3 /* GoogleService-Info.plist in Resources */,
+				5F1277ED25D4E606003FF4A3 /* Assets.xcassets in Resources */,
+				5F1277EB25D4E5FE003FF4A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F1277F425D4E606003FF4A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F1277FF25D4E606003FF4A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D22385BFE0F3EE20C44B020 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NAGAYATests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		574E64B3D5DABBBF67A38B07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NAGAYA-NAGAYAUITests/Pods-NAGAYA-NAGAYAUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NAGAYA-NAGAYAUITests/Pods-NAGAYA-NAGAYAUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NAGAYA-NAGAYAUITests/Pods-NAGAYA-NAGAYAUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B18F1F1BDD7F51DB65C8DFB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NAGAYA/Pods-NAGAYA-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NAGAYA/Pods-NAGAYA-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NAGAYA/Pods-NAGAYA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1E20890C9C891EC00E9006C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NAGAYA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3BBF7E6E8458EF43DBF60A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NAGAYA-NAGAYAUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F1277DC25D4E5FE003FF4A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F12781A25D4ED58003FF4A3 /* LoginViewController.swift in Sources */,
+				5F12781F25D51F5A003FF4A3 /* UIColor-Extension.swift in Sources */,
+				5F1277E825D4E5FE003FF4A3 /* ViewController.swift in Sources */,
+				5F1277E425D4E5FE003FF4A3 /* AppDelegate.swift in Sources */,
+				5F1277E625D4E5FE003FF4A3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F1277F225D4E606003FF4A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F1277FB25D4E606003FF4A3 /* NAGAYATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F1277FD25D4E606003FF4A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F12780625D4E606003FF4A3 /* NAGAYAUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F1277F825D4E606003FF4A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F1277DF25D4E5FE003FF4A3 /* NAGAYA */;
+			targetProxy = 5F1277F725D4E606003FF4A3 /* PBXContainerItemProxy */;
+		};
+		5F12780325D4E606003FF4A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F1277DF25D4E5FE003FF4A3 /* NAGAYA */;
+			targetProxy = 5F12780225D4E606003FF4A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F1277E925D4E5FE003FF4A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F1277EA25D4E5FE003FF4A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F1277EE25D4E606003FF4A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F1277EF25D4E606003FF4A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F12780825D4E606003FF4A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F12780925D4E606003FF4A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F12780B25D4E606003FF4A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B2777F92BC57A2FC48C7FA4 /* Pods-NAGAYA.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NAGAYA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ren-Funakoshi.NAGAYA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5F12780C25D4E606003FF4A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C05E26E190FE5A0AD088B6EE /* Pods-NAGAYA.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NAGAYA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ren-Funakoshi.NAGAYA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5F12780E25D4E606003FF4A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F703D697AA412E260371301 /* Pods-NAGAYATests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NAGAYATests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ren-Funakoshi.NAGAYATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NAGAYA.app/NAGAYA";
+			};
+			name = Debug;
+		};
+		5F12780F25D4E606003FF4A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 395479ED93952504CCAA6007 /* Pods-NAGAYATests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NAGAYATests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ren-Funakoshi.NAGAYATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NAGAYA.app/NAGAYA";
+			};
+			name = Release;
+		};
+		5F12781125D4E606003FF4A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CAEB22C103B32C6DFEE3D5B /* Pods-NAGAYA-NAGAYAUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NAGAYAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ren-Funakoshi.NAGAYAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NAGAYA;
+			};
+			name = Debug;
+		};
+		5F12781225D4E606003FF4A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2858C130A524D51D68D192C /* Pods-NAGAYA-NAGAYAUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NAGAYAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ren-Funakoshi.NAGAYAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NAGAYA;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F1277DB25D4E5FE003FF4A3 /* Build configuration list for PBXProject "NAGAYA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F12780825D4E606003FF4A3 /* Debug */,
+				5F12780925D4E606003FF4A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F12780A25D4E606003FF4A3 /* Build configuration list for PBXNativeTarget "NAGAYA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F12780B25D4E606003FF4A3 /* Debug */,
+				5F12780C25D4E606003FF4A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F12780D25D4E606003FF4A3 /* Build configuration list for PBXNativeTarget "NAGAYATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F12780E25D4E606003FF4A3 /* Debug */,
+				5F12780F25D4E606003FF4A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F12781025D4E606003FF4A3 /* Build configuration list for PBXNativeTarget "NAGAYAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F12781125D4E606003FF4A3 /* Debug */,
+				5F12781225D4E606003FF4A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F1277D825D4E5FE003FF4A3 /* Project object */;
+}
