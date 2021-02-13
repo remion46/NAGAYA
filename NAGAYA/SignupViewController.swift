@@ -8,6 +8,20 @@
 import UIKit
 import Firebase
 
+struct User {
+    
+    let name: String
+    let createdAt: Timestamp
+    let email: String
+    
+    
+    init(dic: [String: Any]) {
+        self.name = dic["name"] as! String
+        self.createdAt = dic["createdAt"] as! Timestamp
+        self.email = dic ["email"] as! String
+    }
+}
+
 
 class LoginViewController: UIViewController {
 
@@ -37,24 +51,46 @@ class LoginViewController: UIViewController {
                 print("認証情報の保存に失敗しました\(err)")
                 return
             }
+            
+            self.adduserinfotofirestore(email: email)
         
-            guard let uid = Auth.auth().currentUser?.uid else { return }
             
-            guard let name = self.nicknametextfield.text else { return }
+        }
+    }
+    
+    private func adduserinfotofirestore(email: String){
+        
+        guard let uid = Auth.auth().currentUser?.uid else { return }
+        guard let name = self.nicknametextfield.text else { return }
+        
+        let docdata = ["email": email,"name": name ,"createdAt": Timestamp()] as [String : Any ]
+        let userref = Firestore.firestore().collection("users").document(uid)
+        
+        userref.setData(docdata) { (err) in
+            if let err = err {
+                
+                print("Firestoreの保存に失敗しました\(err)")
+                return
+            }
+            print("Firestoreの保存に成功しました")
             
-            let docdata = ["email": email,"name": name ,"createdAt": Timestamp()] as [String : Any ]
-            Firestore.firestore().collection("users").document(uid).setData(docdata) { (err) in
+            userref.getDocument { (snapshot, err) in
                 if let err = err {
-                    
-                    print("Firestoreの保存に失敗しました\(err)")
+                    print("ユーザ情報の取得に失敗しました\(err)")
                     return
                 }
-            
-            print("Firestoreの保存に成功しました")
-            return
-                                                                            
+                guard let data = snapshot?.data() else { return }
+                
+                let user = User.init(dic: data)
+                
+                print("ユーザ情報の取得に成功しました\(user.name)")
+               
             }
+            
+                                                                        
         }
+        
+        
     }
     
     override func viewDidLoad() {
